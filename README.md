@@ -227,17 +227,7 @@ DigitalProject/
    rm instance/users.db
    python app.py
    ```
-هذا المشروع مفتوح المصدر ومتاح تحت ترخيص MIT.
 
-## 🤝 Contributing | المساهمة
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-المساهمات مرحب بها! لا تتردد في إرسال طلب سحب.
-
----
-
-**Built with ❤️ for cybersecurity education and monitoring**
 
 **تم البناء بـ ❤️ لتعليم ومراقبة الأمن السيبراني**
 =======
