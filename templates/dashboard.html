@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h1>Welcome, {{ current_user.username }}!</h1>
+        <p class="dashboard-subtitle">Your Security Command Center</p>
+    </div>
+    
+    <div class="dashboard-grid">
+        <div class="dashboard-card">
+            <i data-feather="shield" class="card-icon"></i>
+            <h3>Security Status</h3>
+            <p>Your account is protected and secure</p>
+        </div>
+        
+        <div class="dashboard-card">
+            <i data-feather="activity" class="card-icon"></i>
+            <h3>Recent Activity</h3>
+            <p>No suspicious activities detected</p>
+        </div>
+        
+        <div class="dashboard-card">
+            <i data-feather="settings" class="card-icon"></i>
+            <h3>Account Settings</h3>
+            <p>Manage your security preferences</p>
+        </div>
+    </div>
+
+    <div class="dashboard-actions">
+        <a href="{{ url_for('logout') }}" class="btn btn-secondary">
+            <i data-feather="log-out"></i>
+            <span>Logout</span>
+        </a>
+        <form action="{{ url_for('delete_account') }}" method="POST" style="display: inline;">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete your account? This action cannot be undone.')">
+                <i data-feather="trash-2"></i>
+                <span>Delete Account</span>
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %} 

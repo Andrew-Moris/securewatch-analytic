@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="hero-section">
+    <div class="hero-container">
+        <h1 class="hero-title">Welcome to VulnGuard</h1>
+        <p class="hero-description">Advanced Security Vulnerability Detection and Analysis Platform</p>
+        <div class="hero-buttons">
+            {% if current_user.is_authenticated %}
+                <a href="{{ url_for('dashboard') }}" class="btn btn-primary">
+                    <span>Dashboard</span>
+                    <i data-feather="layout" aria-hidden="true"></i>
+                </a>
+            {% else %}
+                <a href="{{ url_for('login') }}" class="btn btn-primary">
+                    <span>Sign In</span>
+                    <i data-feather="log-in" aria-hidden="true"></i>
+                </a>
+                <a href="{{ url_for('register') }}" class="btn btn-secondary">
+                    <span>Create Account</span>
+                    <i data-feather="user-plus" aria-hidden="true"></i>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+    
+    <div class="features-container">
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i data-feather="shield" aria-hidden="true"></i>
+            </div>
+            <h2 class="feature-title">Comprehensive Protection</h2>
+            <p class="feature-description">Advanced vulnerability detection and analysis system with high precision</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i data-feather="cpu" aria-hidden="true"></i>
+            </div>
+            <h2 class="feature-title">Smart Technology</h2>
+            <p class="feature-description">Leveraging cutting-edge AI technology for vulnerability analysis and detection</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i data-feather="lock" aria-hidden="true"></i>
+            </div>
+            <h2 class="feature-title">Guaranteed Security</h2>
+            <p class="feature-description">Ensuring your data security and privacy with the highest protection standards</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,96 @@
+
+Failed Login Attempts Report
+Username: Hazem
+Time: 2025-04-27 10:22:15
+IP Address: 127.0.0.1
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: Hazem
+Time: 2025-04-27 10:22:15
+IP Address: 127.0.0.1
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: Hazem
+Time: 2025-04-27 10:22:15
+IP Address: 127.0.0.1
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:41
+IP Address: 45.241.47.136
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:42
+IP Address: 45.241.47.136
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:42
+IP Address: 45.241.47.136
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:43
+IP Address: 45.241.47.136
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:43
+IP Address: 45.241.47.136
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Login Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:44
+IP Address: 45.241.47.136
+Status: Account locked due to 3 failed attempts with wrong password
+Process Type: Not matched data
+--------------------------------------------------
+
+Failed Registration Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:58
+IP Address: 45.241.47.136
+Status: Registration up to 3 attempts username with wrong passwords
+Process Type: Account already exists and Not matched data
+--------------------------------------------------
+
+Failed Registration Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:40:59
+IP Address: 45.241.47.136
+Status: Registration up to 3 attempts username with wrong passwords
+Process Type: Account already exists and Not matched data
+--------------------------------------------------
+
+Failed Registration Attempts Report
+Username: andrew9498
+Time: 2025-05-22 20:41:00
+IP Address: 45.241.47.136
+Status: Registration up to 3 attempts username with wrong passwords
+Process Type: Account already exists and Not matched data
+--------------------------------------------------

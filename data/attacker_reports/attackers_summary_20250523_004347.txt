@@ -1,0 +1,148 @@
+══════════════════════════════════════
+🧑‍💻 Attacker Summary Report
+══════════════════════════════════════
+
+🔗 IP Address: 127.0.0.1
+👤 User Context: Hazem OR 1=1
+🕒 First Activity: 2025-04-27 10:21:53
+🕒 Last Activity : 2025-04-27 10:21:53
+💥 Total Incidents: 1
+
+🚨 Detected Attack Types:
+  • 🧬 Sql Injection
+
+📝 Detailed Actions (Chronological):
+──────────────────────────────────────
+1. [2025-04-27 10:21:53] - 🧬 Sql Injection
+  • Target User: Hazem OR 1=1
+  • Details: Matched pattern: (?:or|and)\s+\d+\s*=\s*\d+
+──────────────────────────────────────
+
+🧩 Risk Assessment: 🔥 HIGH
+📈 Recommendations:
+  • Immediately block IP: 127.0.0.1 at the firewall.
+  • Investigate logs for successful breaches or lateral movement from this IP.
+  • Force password reset & review activity for user: Hazem OR 1=1.
+══════════════════════════════════════
+
+══════════════════════════════════════
+🧑‍💻 Attacker Summary Report
+══════════════════════════════════════
+
+🔗 IP Address: 127.0.0.1
+👤 User Context: Hazem
+🕒 First Activity: 2025-04-27 10:22:15
+🕒 Last Activity : 2025-04-27 10:22:15
+💥 Total Incidents: 3
+
+🚨 Detected Attack Types:
+  • 🔁 Brute Force
+  • 👤 Brute Force Attack On Username
+  • 💥 Dos Attack (Invalid Credentials)
+
+📝 Detailed Actions (Chronological):
+──────────────────────────────────────
+1. [2025-04-27 10:22:15] - 💥 Dos Attack (Invalid Credentials)
+  • Target User: Hazem
+  • Details: Three "Not matched data" login attempts in 10 seconds.
+
+2. [2025-04-27 10:22:15] - 🔁 Brute Force
+  • Target User: Hazem
+  • Details: Repeated specific failed login pattern detected 3+ times (potential brute force).
+
+3. [2025-04-27 10:22:15] - 👤 Brute Force Attack On Username
+  • Target User: Hazem
+  • Details: 5 failed login attempts for username 'Hazem'.
+──────────────────────────────────────
+
+🧩 Risk Assessment: 🔥 HIGH
+📈 Recommendations:
+  • Immediately block IP: 127.0.0.1 at the firewall.
+  • Investigate logs for successful breaches or lateral movement from this IP.
+  • Force password reset & review activity for user: Hazem.
+══════════════════════════════════════
+
+══════════════════════════════════════
+🧑‍💻 Attacker Summary Report
+══════════════════════════════════════
+
+🔗 IP Address: 127.0.0.1
+🕒 First Activity: 2025-04-27 10:22:15
+🕒 Last Activity : 2025-04-27 10:22:15
+💥 Total Incidents: 1
+
+🚨 Detected Attack Types:
+  • 🔁 Brute Force
+
+📝 Detailed Actions (Chronological):
+──────────────────────────────────────
+1. [2025-04-27 10:22:15] - 🔁 Brute Force
+  • Details: 10 failed login attempts from IP 127.0.0.1 in a short period.
+──────────────────────────────────────
+
+🧩 Risk Assessment: ⚠️ MEDIUM
+📈 Recommendations:
+  • Monitor IP: 127.0.0.1 closely for further suspicious activity.
+  • Consider rate-limiting or temporary IP block if activity persists.
+══════════════════════════════════════
+
+══════════════════════════════════════
+🧑‍💻 Attacker Summary Report
+══════════════════════════════════════
+
+🔗 IP Address: 45.241.47.136
+👤 User Context: andrew9498
+🕒 First Activity: 2025-05-22 17:51:45
+🕒 Last Activity : 2025-05-22 20:40:58
+💥 Total Incidents: 3
+
+🚨 Detected Attack Types:
+  • 👤 Brute Force Attack On Username
+  • 💥 Dos Attack (Invalid Credentials)
+  • 💥 Dos Attack (Registration)
+
+📝 Detailed Actions (Chronological):
+──────────────────────────────────────
+1. [2025-05-22 17:51:45] - 👤 Brute Force Attack On Username
+  • Target User: andrew9498
+  • Details: 5 failed login attempts for username 'andrew9498'.
+
+2. [2025-05-22 20:40:41] - 💥 Dos Attack (Invalid Credentials)
+  • Target User: andrew9498
+  • Details: Three "Not matched data" login attempts in 10 seconds.
+
+3. [2025-05-22 20:40:58] - 💥 Dos Attack (Registration)
+  • Target User: andrew9498
+  • Details: Three failed registration attempts in 10 seconds.
+──────────────────────────────────────
+
+🧩 Risk Assessment: 🔥 HIGH
+📈 Recommendations:
+  • Immediately block IP: 45.241.47.136 at the firewall.
+  • Investigate logs for successful breaches or lateral movement from this IP.
+  • Force password reset & review activity for user: andrew9498.
+══════════════════════════════════════
+
+══════════════════════════════════════
+🧑‍💻 Attacker Summary Report
+══════════════════════════════════════
+
+🔗 IP Address: 45.241.47.136
+🕒 First Activity: 2025-05-22 17:51:45
+🕒 Last Activity : 2025-05-22 17:51:45
+💥 Total Incidents: 1
+
+🚨 Detected Attack Types:
+  • 🔁 Brute Force
+
+📝 Detailed Actions (Chronological):
+──────────────────────────────────────
+1. [2025-05-22 17:51:45] - 🔁 Brute Force
+  • Details: 10 failed login attempts from IP 45.241.47.136 in a short period.
+──────────────────────────────────────
+
+🧩 Risk Assessment: ⚠️ MEDIUM
+📈 Recommendations:
+  • Monitor IP: 45.241.47.136 closely for further suspicious activity.
+  • Consider rate-limiting or temporary IP block if activity persists.
+══════════════════════════════════════
