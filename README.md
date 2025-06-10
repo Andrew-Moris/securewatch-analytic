@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Security Monitoring System | نظام المراقبة الأمنية
 
 ## 🔒 Overview | نظرة عامة
@@ -239,3 +240,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Built with ❤️ for cybersecurity education and monitoring**
 
 **تم البناء بـ ❤️ لتعليم ومراقبة الأمن السيبراني**
+=======
+# securewatch-analytic
+Python security suite: Flask login firewall, real-time attack logging, and a GUI analyzer that visualizes 25 + threat types.
+>>>>>>> 3917fa0603fa6d493417e68c0ef477579a6432b5
